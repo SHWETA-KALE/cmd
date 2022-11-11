@@ -1,0 +1,48 @@
+$sudo apt install git,
+$git --version
+$ mkdir git-dvcs
+$ cd git-dvcs/
+$ git config –global
+$ git config --global user.name "Nitish"
+$ git config --global user.email dhruvchandra01.dc@gmail.com
+$ git config --global --list user.name=Nitish
+user.email=dhruvchandra01.dc@gmail.com
+
+$ mkdir git-demo-project
+$ cd git-demo-project/
+$ git init
+
+rm -rf .git/
+
+$ git init
+$ git add .
+$ git status
+$ git commit -m "First Commit"
+git add .
+$ git commit -am "express Commit" 
+$nano index.html
+$ touch teststatus
+$ git add index.html
+$ git add teststatus
+
+$ git commit -am "Express commit"
+$ git log
+
+
+//pull push
+
+Push → Push changes to Web repository
+Pull → Pull changes to Local repository
+
+$ git remote add origin https://github.com/MSid01/TriviaQuiz.git
+$ git remote show origin
+
+$ git remote add origin https://github.com/bhushanjadhav1/Myrepository.git fatal:
+remote origin already exists.
+$ git remote rm origin
+$ git push -u origin master
+
+$ git pull
+Fetch
+
+$ git fetch
